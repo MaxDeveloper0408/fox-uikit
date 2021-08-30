@@ -4056,8 +4056,12 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/mochiswap",
+                label: "Chat",
+                href: "https://t.me/cryptina_chat",
+            },
+            {
+                label: "Alerts",
+                href: "https://t.me/cryptina_alerts",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -4112,7 +4116,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/mochiswap",
+        href: "https://twitter.com/FarmersOnlyFi",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -4238,7 +4242,7 @@ var templateObject_1$d;
 var PriceLink = styled.a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://analytics-harmony.sushi.com/tokens/0x139c70f74613e229b1aab2c39df8f73d54df5c80", target: "_blank" },
         React.createElement(Icon$X, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4298,7 +4302,8 @@ var PanelFooter = function (_a) {
             React.createElement(SocialLinks$1, null)),
         React.createElement(SettingsEntry, null,
             React.createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-            React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }))));
+            // React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang })
+        )));
 };
 var templateObject_1$b, templateObject_2$5, templateObject_3$2;
 

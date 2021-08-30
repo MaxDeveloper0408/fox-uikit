@@ -4126,7 +4126,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/mochiswap",
+        href: "https://twitter.com/1",
     },
 ];
 var MENU_HEIGHT = 64;
