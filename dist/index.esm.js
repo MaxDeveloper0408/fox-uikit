@@ -603,7 +603,7 @@ var Icon$1d = function (props) {
 
 var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
 var Icon$1c = function (props) {
-    return (React.createElement(LogoImg$1, { src: "https://s3.us-west-1.amazonaws.com/tokens.mochiswap.io/images/mochi400x400.png", alt: "M" }));
+    return (React.createElement(LogoImg$1, { src: "http://farmersonly.fi/FOX-Logo.png", alt: "M" }));
 };
 var templateObject_1$16;
 
@@ -818,7 +818,7 @@ var Icon$Y = function (props) {
 
 var LogoImg = styled.img(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"], ["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"])));
 var Icon$X = function (props) {
-    return (React.createElement(LogoImg, { src: "https://s3.us-west-1.amazonaws.com/tokens.mochiswap.io/images/mochi400x400.png", alt: "M" }));
+    return (React.createElement(LogoImg, { src: "http://farmersonly.fi/FOX-Logo.png", alt: "M" }));
 };
 var templateObject_1$15;
 
@@ -3792,7 +3792,8 @@ var Icon$a = function (props) {
 var Logo$2 = function (_a) {
     var isDark = _a.isDark;
     var image = isDark ? "https://one.mochiswap.io/static/media/mochi-logo-light@2x.8b2c03c6.png" : "https://one.mochiswap.io/static/media/mochi-logo-light@2x.8b2c03c6.png";
-    return (React.createElement("img", { src: image, width: "170px", alt: "mochiswap" }));
+    return '';
+    // return (React.createElement("img", { src: image, width: "170px", alt: "mochiswap" }));
 };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
