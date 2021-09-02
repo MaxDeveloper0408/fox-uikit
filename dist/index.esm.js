@@ -601,7 +601,7 @@ var Icon$1d = function (props) {
         React.createElement("path", { d: "M10.3 8.09014C9.91 8.48014 9.91 9.10014 10.3 9.49014L12.2 11.3901H3C2.45 11.3901 2 11.8401 2 12.3901C2 12.9401 2.45 13.3901 3 13.3901H12.2L10.3 15.2901C9.91 15.6801 9.91 16.3001 10.3 16.6901C10.69 17.0801 11.31 17.0801 11.7 16.6901L15.29 13.1001C15.68 12.7101 15.68 12.0801 15.29 11.6901L11.7 8.09014C11.31 7.70014 10.69 7.70014 10.3 8.09014ZM20 19.3901H13C12.45 19.3901 12 19.8401 12 20.3901C12 20.9401 12.45 21.3901 13 21.3901H20C21.1 21.3901 22 20.4901 22 19.3901V5.39014C22 4.29014 21.1 3.39014 20 3.39014H13C12.45 3.39014 12 3.84014 12 4.39014C12 4.94014 12.45 5.39014 13 5.39014H20V19.3901Z" })));
 };
 
-var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
+var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  margin-right: 15px;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
 var Icon$1c = function (props) {
     return (React.createElement(LogoImg$1, { src: "http://farmersonly.fi/FOX-Logo.png", alt: "M" }));
 };
@@ -816,7 +816,7 @@ var Icon$Y = function (props) {
         React.createElement("path", { d: "M0 15.46V18.5C0 18.78 0.22 19 0.5 19H3.54C3.67 19 3.8 18.95 3.89 18.85L14.81 7.94L11.06 4.19L0.15 15.1C0.0500001 15.2 0 15.32 0 15.46ZM17.71 5.04C18.1 4.65 18.1 4.02 17.71 3.63L15.37 1.29C14.98 0.899998 14.35 0.899998 13.96 1.29L12.13 3.12L15.88 6.87L17.71 5.04Z", fill: "#1FC7D4" })));
 };
 
-var LogoImg = styled.img(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"], ["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"])));
+var LogoImg = styled.img(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"], ["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"])));
 var Icon$X = function (props) {
     return (React.createElement(LogoImg, { src: "http://farmersonly.fi/FOX-Logo.png", alt: "M" }));
 };
@@ -3791,9 +3791,8 @@ var Icon$a = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark;
-    var image = isDark ? "https://one.mochiswap.io/static/media/mochi-logo-light@2x.8b2c03c6.png" : "https://one.mochiswap.io/static/media/mochi-logo-light@2x.8b2c03c6.png";
-    return '';
-    // return (React.createElement("img", { src: image, width: "170px", alt: "mochiswap" }));
+    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png";
+    return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
 };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -4208,6 +4207,7 @@ var MenuLink = function (_a) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : NavLink;
     var props = isHttpLink ? { href: href } : { to: href };
+
     return React.createElement(Tag, __assign({ role: "button" }, props, otherProps));
 };
 
