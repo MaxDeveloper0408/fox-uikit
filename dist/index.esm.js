@@ -3791,7 +3791,7 @@ var Icon$a = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark;
-    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png";
+    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_white_large.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png";
     return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
 };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
