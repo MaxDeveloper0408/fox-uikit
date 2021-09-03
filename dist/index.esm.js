@@ -4063,7 +4063,7 @@ var socials = [
         items: [
             {
                 label: "Chat",
-                href: "https://t.me/cryptina_chat",
+                href: "https://t.me/farmersonlyfi",
             },
             {
                 label: "Alerts",
