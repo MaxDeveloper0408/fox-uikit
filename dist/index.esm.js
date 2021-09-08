@@ -4249,7 +4249,7 @@ var templateObject_1$d;
 var PriceLink = styled.a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://analytics-harmony.sushi.com/tokens/0x139c70f74613e229b1aab2c39df8f73d54df5c80", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://analytics-harmony.sushi.com/tokens/0x0159ed2e06ddcd46a25e74eb8e159ce666b28687", target: "_blank" },
         React.createElement(Icon$X, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
