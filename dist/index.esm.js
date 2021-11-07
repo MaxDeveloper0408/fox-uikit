@@ -4237,8 +4237,12 @@ var PanelBody = function (_a) {
                         React.createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
                         item.status && (React.createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
         }
+        var menuLinkProps = { href: entry.href, onClick: handleClick };
+        if (entry.external === true) {
+            Object.assign(menuLinkProps, getExternalLinkProps());
+        }
         return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-            React.createElement(MenuLink, { href: entry.href, onClick: handleClick },
+            React.createElement(MenuLink, menuLinkProps,
                 iconElement,
                 React.createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
                 entry.status && (React.createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
