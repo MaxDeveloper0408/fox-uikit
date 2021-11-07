@@ -4240,8 +4240,12 @@ var PanelBody = function (_a) {
                         React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
                         item.status && (React__default['default'].createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
         }
+        var menuLinkProps = { href: entry.href, onClick: handleClick };
+        if (entry.external === true) {
+            Object.assign(menuLinkProps, getExternalLinkProps());
+        }
         return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-            React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
+            React__default['default'].createElement(MenuLink, menuLinkProps,
                 iconElement,
                 React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
                 entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
