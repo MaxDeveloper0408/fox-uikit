@@ -3,7 +3,7 @@ import styled, { keyframes, css, useTheme, ThemeProvider, createGlobalStyle } fr
 import { space, typography, layout, variant as variant$1, background, border, position, flexbox, grid, color } from 'styled-system';
 import get from 'lodash/get';
 import uniqueId from 'lodash/uniqueId';
-import { uniqueId as uniqueId$1 } from 'lodash';
+import uniqueId$1 from 'lodash-es/uniqueId';
 import { createPortal } from 'react-dom';
 import { usePopper } from 'react-popper';
 import noop from 'lodash/noop';
