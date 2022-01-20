@@ -603,7 +603,7 @@ var Icon$1d = function (props) {
 
 var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  margin-right: 15px;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
 var Icon$1c = function (props) {
-    return (React.createElement(LogoImg$1, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FOX-Logo.png", alt: "M" }));
+    return (React.createElement(LogoImg$1, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-circle_05.png", alt: "M" }));
 };
 var templateObject_1$16;
 
@@ -818,7 +818,7 @@ var Icon$Y = function (props) {
 
 var LogoImg = styled.img(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"], ["\n  border-radius: 50%;\n  height: 30px;\n  width: 30px;\n  margin: 4px;\n"])));
 var Icon$X = function (props) {
-    return (React.createElement(LogoImg, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FOX-Logo.png", alt: "M" }));
+    return (React.createElement(LogoImg, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-circle_05.png", alt: "M" }));
 };
 var templateObject_1$15;
 
@@ -3796,7 +3796,7 @@ var Icon$a = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark;
-    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_white_large.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FarmersOnlyLogo/Logo+Images/FOX-Logo_Logotype_large.png";
+    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullblack.png";
     return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
 };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
