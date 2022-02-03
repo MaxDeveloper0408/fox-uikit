@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/FarmersOnlyFi/fox-uikit",
+  "repository": "https://github.com/MaxDeveloper0408/fox-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
