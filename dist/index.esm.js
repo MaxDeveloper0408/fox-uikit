@@ -603,6 +603,7 @@ var Icon$1d = function (props) {
 
 var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  margin-right: 15px;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
 var Icon$1c = function (props) {
+    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-thickwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-thickblack.png";
     return (React.createElement(LogoImg$1, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-circle_05.png", alt: "M" }));
 };
 var templateObject_1$16;
@@ -3794,11 +3795,11 @@ var Icon$a = function (props) {
         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
 };
 
-var Logo$2 = function (_a) {
-    var isDark = _a.isDark;
-    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullblack.png";
-    return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
-};
+// var Logo$2 = function (_a) {
+//     var isDark = _a.isDark;
+//     var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullblack.png";
+//     return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
+// };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
 var Icon$9 = function (props) {
