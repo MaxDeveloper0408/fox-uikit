@@ -1,7 +1,7 @@
 {
   "name": "@fox/uikit",
   "version": "0.2.78",
-  "description": "Set of UI components for mochiswap projects",
+  "description": "Set of UI components for FoxSwap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -47,6 +47,7 @@
     "@types/lodash": "^4.14.168",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
+    "lodash-es": "^4.17.20",
     "react-popper": "^2.2.5",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
