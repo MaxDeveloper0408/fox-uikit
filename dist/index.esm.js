@@ -3795,11 +3795,11 @@ var Icon$a = function (props) {
         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
 };
 
-// var Logo$2 = function (_a) {
-//     var isDark = _a.isDark;
-//     var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-fullblack.png";
-//     return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
-// };
+var Logo$2 = function (_a) {
+    var isDark = _a.isDark;
+    var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-textwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswaplogo-textblack.png";
+    return (React.createElement("img", { src: image, width: "170px", alt: "fox" }));
+};
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
 var Icon$9 = function (props) {
