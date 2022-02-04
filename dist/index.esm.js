@@ -604,7 +604,7 @@ var Icon$1d = function (props) {
 var LogoImg$1 = styled.img(templateObject_1$16 || (templateObject_1$16 = __makeTemplateObject(["\n  margin-right: 15px;\n  height: 40px;\n  width: 40px;\n"], ["\n  border-radius: 50%;\n  height: 40px;\n  width: 40px;\n"])));
 var Icon$1c = function (props) {
     var image = isDark ? "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-thickwhite.png" : "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-thickblack.png";
-    return (React.createElement(LogoImg$1, { src: "https://s3.us-west-2.amazonaws.com/farmersonly.fi/FoxSwapLogos/foxswap-circle_05.png", alt: "M" }));
+    return (React.createElement(LogoImg$1, { src: image, alt: "M" }));
 };
 var templateObject_1$16;
 
